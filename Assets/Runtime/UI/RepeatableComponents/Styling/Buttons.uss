@@ -1,0 +1,38 @@
+.unity-button{
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+}
+
+.unity-button .button-icon{
+    flex-shrink: 0;
+    margin-right: 4px;
+}
+
+.unity-button .unity-label{
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    color: var(--text-primary);
+    -unity-font-definition: var(--font-inter-700);
+}
+
+/* Button Primary Small - Text Icon */
+.button-primary-small{
+    padding: 5.5px 12px;
+}
+
+.button-primary-small .button-icon{
+    width: 18px;
+    height: 18px;
+    margin: 7px;
+    padding: 0px;
+}
+
+/* Button Primary Small - Icon */
+.button-primary-small__icon{
+    width: 32px;
+    height: 32px;
+    margin: 0px;
+    padding: 0px;
+}

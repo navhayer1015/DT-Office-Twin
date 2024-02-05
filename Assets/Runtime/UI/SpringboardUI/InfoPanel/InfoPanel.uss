@@ -1,0 +1,134 @@
+.info-panel {
+    height: 100%;
+    background-color: var(--surface-foreground);
+    width: 360px;
+    padding: 0;
+    flex-shrink: 0;
+    max-height: 100%;
+    min-height: 100%;
+    justify-content: space-between;
+}
+
+.info-panel-header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+#InfoPanelHeader {
+    flex-shrink: 0;
+}
+
+#InfoPanelElements{
+    flex-shrink: 1;
+}
+
+.info-panel-title {
+    margin: 0;
+    padding: 0;
+}
+
+.info-panel-staticgroup {
+    margin: 10px 20px;
+    flex-shrink: 0;
+}
+
+.info-panel-divider {
+    margin: 0;
+}
+
+#CloseButton #icon {
+    background-image: var(--icon-close);
+}
+
+#CloseButton #button {
+    width: 24px;
+    height: 24px;
+}
+
+.info-panel-alarmicon {
+    margin: 0;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+}
+
+.info-panel-alarmbuttons {
+    padding: 0;
+    margin: 0;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+#OperatingProcedure #Description {
+    white-space: normal;
+}
+
+.info-panel #AlarmActions .button-primary-small {
+    flex-grow: 1;
+}
+
+.info-panel-scroller {
+    position: relative;
+    top: auto;
+    left: auto;
+    flex-wrap: nowrap;
+    margin-left: 20px;
+    margin-right: 6px;
+}
+
+.info-panel-groupspacing {
+    margin-bottom: 6px;
+}
+
+.info-panel-spacing {
+    margin-bottom: 6px;
+}
+
+.unity-scroll-view__content-container {
+    width: 320px;
+}
+
+.info-panel-camerawindow {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    flex-shrink: 0;
+}
+
+.info-panel-camera-divider {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    flex-shrink: 0;
+}
+
+#NothingGroup {
+    height: 100%;
+}
+
+.nothing-group__image {
+    background-image: var(--icon-noalerts--alarm-info);
+}
+
+.unity-foldout {
+    flex-shrink: 0;
+}
+
+#UpperElements {
+    flex-shrink: 1;
+}
+
+#LowerElements {
+    flex-shrink: 0;
+}

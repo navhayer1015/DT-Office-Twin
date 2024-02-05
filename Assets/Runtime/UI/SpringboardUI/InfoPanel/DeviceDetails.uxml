@@ -1,0 +1,21 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Template name="InfoGroup" src="project://database/Packages/com.miniproject.aecorepeatables/Runtime/UI/SpringboardUI/InfoPanel/InfoGroup.uxml?fileID=9197481963319205126&amp;guid=e954f3a9af918094babb7b4b0323f0ae&amp;type=3#InfoGroup" />
+    <ui:Foldout text="Device Details" name="DeviceDetails">
+        <ui:Instance template="InfoGroup" name="DeviceInfo-Description">
+            <AttributeOverrides element-name="title" text="Description:" />
+            <AttributeOverrides element-name="description" text="CR04.12-Main Entrance" />
+        </ui:Instance>
+        <ui:Instance template="InfoGroup" name="DeviceInfo-Location">
+            <AttributeOverrides element-name="title" text="Location:" />
+            <AttributeOverrides element-name="description" text="GBR-Brighton-BRNL" />
+        </ui:Instance>
+        <ui:Instance template="InfoGroup" name="DeviceInfo-HardwareID">
+            <AttributeOverrides element-name="title" text="Hardware ID:" />
+            <AttributeOverrides element-name="description" text="PW-5000::05010005000900" />
+        </ui:Instance>
+        <ui:Instance template="InfoGroup" name="DeviceInfo-Status">
+            <AttributeOverrides element-name="title" text="Status:" />
+            <AttributeOverrides element-name="description" text="Unacknowledged" />
+        </ui:Instance>
+    </ui:Foldout>
+</ui:UXML>

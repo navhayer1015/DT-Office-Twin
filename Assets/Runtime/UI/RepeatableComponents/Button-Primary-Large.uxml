@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Packages/com.miniproject.aecorepeatables/Runtime/UI/RepeatableComponents/Styling/Common/GlobalStyleVariables.uss?fileID=7433441132597879392&amp;guid=dc4d81e94eec58f4f9a2d65c468bd38e&amp;type=3#GlobalStyleVariables" />
+    <ui:Button text="BUTTON" display-tooltip-when-elided="true" name="button" class="text-button button-primary-large" style="display: flex;" />
+    <ui:VisualElement name="loading" class="button-primary-large unity-button" style="justify-content: center; align-items: center; display: none;">
+        <Unity.AppUI.UI.CircularProgress style="height: 18.5px; width: 18.5px;" />
+    </ui:VisualElement>
+</ui:UXML>

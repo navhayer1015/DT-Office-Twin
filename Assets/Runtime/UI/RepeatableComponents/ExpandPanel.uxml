@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Packages/com.miniproject.aecorepeatables/Runtime/UI/RepeatableComponents/Styling/ExpandPanel.uss?fileID=7433441132597879392&amp;guid=609760da6c8c22848b40155252a4c2cd&amp;type=3#ExpandPanel" />
+    <ui:Foldout text="Title" name="ExpandPanel" class="expandpanel" />
+</ui:UXML>

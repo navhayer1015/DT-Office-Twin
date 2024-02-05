@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Packages/com.miniproject.aecorepeatables/Runtime/UI/SpringboardUI/CameraWindow.uss?fileID=7433441132597879392&amp;guid=7aaa261bf521e1b419ead2c812ca96f3&amp;type=3#CameraWindow" />
+    <ui:Foldout text="CAM 04.07" name="CameraWindow">
+        <ui:Label text="02-26-2023 08:40:07" display-tooltip-when-elided="true" name="Description" class="text-body-list video-description" />
+        <ui:Image name="VideoImage" class="unity-image video-image" style="background-image: url(&apos;project://database/Packages/com.miniproject.aecorepeatables/Runtime/UI/SpringboardUI/Video%20Feed.renderTexture?fileID=8400000&amp;guid=bbc9a631f35514795a1ae37dc23a6d69&amp;type=2#Video Feed&apos;);" />
+    </ui:Foldout>
+</ui:UXML>

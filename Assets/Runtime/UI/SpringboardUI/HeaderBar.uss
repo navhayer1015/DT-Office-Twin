@@ -1,0 +1,46 @@
+.headerbar {
+    width: 100%;
+    height: 60px;
+    background-color: var(--surface-background);
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.headerbar-logo {
+    margin-left: 16px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    background-image: var(--logo-horizontal);
+    width: 213px;
+    height: 61px;
+    -unity-background-scale-mode: scale-and-crop;
+}
+
+.headerbar-buttons-group {
+    flex-direction: row-reverse;
+    flex-shrink: 0;
+    align-items: center;
+    margin-left: 0;
+    margin-right: 2px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#dropdown {
+    margin-right: 12px;
+}
+
+#KebabDropdown .button-icon {
+    background-image: var(--icon-kebob);
+    -unity-background-image-tint-color: white;
+}
+
+#ProfileDropdown .button-icon {
+    background-image: var(--icon-profile);
+}

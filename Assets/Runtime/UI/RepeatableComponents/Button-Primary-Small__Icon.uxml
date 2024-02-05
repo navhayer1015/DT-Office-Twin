@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Packages/com.miniproject.aecorepeatables/Runtime/UI/RepeatableComponents/Styling/Buttons.uss?fileID=7433441132597879392&amp;guid=9277af722afc6f343b31c7a3a208216b&amp;type=3#Buttons" />
+    <ui:Button name="button" class="button-primary-small button-primary-small__icon">
+        <ui:GroupBox name="icon" class="button-icon" />
+    </ui:Button>
+</ui:UXML>

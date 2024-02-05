@@ -1,0 +1,40 @@
+/* base */
+.text-input-field > .unity-base-text-field__input{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    
+    background-color: var(--form-base);
+    
+    border-width: 1px;
+    border-radius: 4px;
+    border-color: var(--form-base-outline);
+
+    padding: 14px 20px;
+    
+    color: var(--text-info-secondary);
+}
+/* selected */
+.text-input-field > .unity-base-text-field__input:focus{
+    background-color: var(--form-selected);
+    border-color: var(--form-selected-outline);
+    color: var(--text-info-primary);
+}
+/* hover */
+.text-input-field > .unity-base-text-field__input:hover{
+    background-color: var(--form-hover);
+    border-color: var(--form-hover-outline);
+    color: var(--text-info-secondary);
+}
+/* pressed */
+.text-input-field > .unity-base-text-field__input:active{
+    background-color: var(--form-press);
+    border-color: var(--form-press-outline);
+    color: var(--text-info-primary);
+}
+/* disabled */
+.text-input-field > .unity-base-text-field__input:disabled{
+    background-color: var(--form-disabled);
+    border-width: 0px;
+    color: var(--btn-text-disabled);
+}

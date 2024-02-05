@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Template name="Button-Primary-Small__Icon" src="project://database/Packages/com.miniproject.aecorepeatables/Runtime/UI/RepeatableComponents/Button-Primary-Small__Icon.uxml?fileID=9197481963319205126&amp;guid=f32d8c48d430c6249ab6f5c6c3b3da8c&amp;type=3#Button-Primary-Small__Icon" />
+    <Style src="project://database/Packages/com.miniproject.aecorepeatables/Runtime/UI/RepeatableComponents/Styling/CustomDropdown.uss?fileID=7433441132597879392&amp;guid=39bf03f6722c61b4989d904c466794dc&amp;type=3#CustomDropdown" />
+    <CheckboxDropdown name="dropdown">
+        <ui:Instance template="Button-Primary-Small__Icon" name="DropdownButton" />
+    </CheckboxDropdown>
+</ui:UXML>

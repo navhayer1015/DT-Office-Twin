@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Button display-tooltip-when-elided="true" name="button" class="button-primary-small">
+        <ui:VisualElement name="icon" class="button-icon" />
+        <ui:Label text="Label" display-tooltip-when-elided="true" name="label" />
+    </ui:Button>
+</ui:UXML>

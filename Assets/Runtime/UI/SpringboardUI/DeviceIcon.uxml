@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" appui="UnityEngine.Dt.App.UI" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Packages/com.miniproject.aecorepeatables/Runtime/UI/SpringboardUI/DeviceIcon.uss?fileID=7433441132597879392&amp;guid=3a4a925b55906427893c9492f0d02f9f&amp;type=3#DeviceIcon" />
+    <Unity.AppUI.UI.IconButton elevation="8" focusable="true" icon="device" preferred-tooltip-placement="Top" usage-hints="DynamicTransform" class="tracked-device-button" />
+</ui:UXML>

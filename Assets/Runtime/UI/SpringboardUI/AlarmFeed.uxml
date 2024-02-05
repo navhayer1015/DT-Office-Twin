@@ -1,0 +1,21 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Template name="Button-Icon-Primary-Small" src="project://database/Packages/com.miniproject.aecorepeatables/Runtime/UI/RepeatableComponents/Button-Primary-Small__Icon.uxml?fileID=9197481963319205126&amp;guid=f32d8c48d430c6249ab6f5c6c3b3da8c&amp;type=3#Button-Primary-Small__Icon" />
+    <ui:Template name="ToggleGroup-2Button" src="project://database/Packages/com.miniproject.aecorepeatables/Runtime/UI/RepeatableComponents/ToggleGroup-2Button.uxml?fileID=9197481963319205126&amp;guid=7cee94497eba143488247330dae0f2cf&amp;type=3#ToggleGroup-2Button" />
+    <ui:Template name="NothingToReport" src="project://database/Assets/NothingToReport.uxml?fileID=9197481963319205126&amp;guid=619964deda528504c8c7171bd9966726&amp;type=3#NothingToReport" />
+    <Style src="project://database/Packages/com.miniproject.aecorepeatables/Runtime/UI/SpringboardUI/AlarmFeed.uss?fileID=7433441132597879392&amp;guid=25cc77fe5d7bfb04ca45daafb933bc32&amp;type=3#AlarmFeed" />
+    <ui:VisualElement name="AlarmFeedPanel" class="alarmfeed">
+        <ui:GroupBox name="Header" class="alarmfeed-header">
+            <ui:Label text="Alerts" display-tooltip-when-elided="true" name="Alerts-title" class="alarmfeed-title text-headline6" />
+            <ui:Instance template="Button-Icon-Primary-Small" name="CloseButton">
+                <AttributeOverrides element-name="button" focusable="false" />
+            </ui:Instance>
+        </ui:GroupBox>
+        <ui:Instance template="ToggleGroup-2Button" name="ToggleGroup-2Button" class="alarmfeed-togglegroup">
+            <AttributeOverrides element-name="left-button" text="NEW" />
+            <AttributeOverrides element-name="right-button" text="ACKNOWLEDGED" />
+        </ui:Instance>
+        <ui:ScrollView name="Alerts-New" horizontal-scroller-visibility="Hidden" class="alarmfeed-feed" />
+        <ui:ScrollView name="Alerts-Acknowledged" horizontal-scroller-visibility="Hidden" class="alarmfeed-feed" />
+        <ui:Instance template="NothingToReport" name="NothingToReport" />
+    </ui:VisualElement>
+</ui:UXML>

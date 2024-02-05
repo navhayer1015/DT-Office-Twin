@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Packages/com.miniproject.aecorepeatables/Runtime/UI/RepeatableComponents/Styling/ToggleGroup.uss?fileID=7433441132597879392&amp;guid=44f48f9f0d254b14e8d43ad786fb861e&amp;type=3#ToggleGroup" />
+    <ToggleGroup name="ToggleGroup">
+        <ui:GroupBox name="ToggleGroup-2Button" class="togglegroup">
+            <ui:Button text="LEFT" display-tooltip-when-elided="true" name="left-button" focusable="false" class="text-button togglegroup-button-left togglegroup-button" />
+            <ui:Button text="RIGHT" display-tooltip-when-elided="true" name="right-button" focusable="false" class="togglegroup-button text-button togglegroup-button-right" />
+        </ui:GroupBox>
+    </ToggleGroup>
+</ui:UXML>

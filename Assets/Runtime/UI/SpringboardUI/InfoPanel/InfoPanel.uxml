@@ -1,0 +1,36 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Template name="InfoPanelHeader" src="project://database/Packages/com.miniproject.aecorepeatables/Runtime/UI/SpringboardUI/InfoPanel/InfoPanelHeader.uxml?fileID=9197481963319205126&amp;guid=c003126cd14d81946a0d72dd537241d0&amp;type=3#InfoPanelHeader" />
+    <ui:Template name="AlarmActions" src="project://database/Packages/com.miniproject.aecorepeatables/Runtime/UI/SpringboardUI/InfoPanel/AlarmActions.uxml?fileID=9197481963319205126&amp;guid=c94b6623439dfb340819da5bcebae5e8&amp;type=3#AlarmActions" />
+    <ui:Template name="DividerLine-Horizontal" src="project://database/Packages/com.miniproject.aecorepeatables/Runtime/UI/RepeatableComponents/DividerLine-Horizontal.uxml?fileID=9197481963319205126&amp;guid=2af13e299a1a9834a85b7b3f3a961d85&amp;type=3#DividerLine-Horizontal" />
+    <ui:Template name="AlarmDetails" src="project://database/Packages/com.miniproject.aecorepeatables/Runtime/UI/SpringboardUI/InfoPanel/DeviceInformation.uxml?fileID=9197481963319205126&amp;guid=a374e1711b8f6254e95b2102675779b6&amp;type=3#DeviceInformation" />
+    <ui:Template name="AlarmHistory" src="project://database/Packages/com.miniproject.aecorepeatables/Runtime/UI/SpringboardUI/InfoPanel/AlarmHistory.uxml?fileID=9197481963319205126&amp;guid=3af7d5364bf963a4eaed56f4fa4ff43a&amp;type=3#AlarmHistory" />
+    <ui:Template name="AlarmDetails2" src="project://database/Packages/com.miniproject.aecorepeatables/Runtime/UI/SpringboardUI/InfoPanel/DeviceDetails.uxml?fileID=9197481963319205126&amp;guid=9a1904ff111c12a41a948b072c359a24&amp;type=3#DeviceDetails" />
+    <ui:Template name="OperatingProcedure" src="project://database/Packages/com.miniproject.aecorepeatables/Runtime/UI/SpringboardUI/InfoPanel/StandardOperatingProcedure.uxml?fileID=9197481963319205126&amp;guid=9b3ae40ab1df70341bb3c6a0f8e35cdc&amp;type=3#StandardOperatingProcedure" />
+    <ui:Template name="CameraWindow" src="project://database/Packages/com.miniproject.aecorepeatables/Runtime/UI/SpringboardUI/CameraWindow.uxml?fileID=9197481963319205126&amp;guid=896acc034c63df44bbe6dcb7b116eb18&amp;type=3#CameraWindow" />
+    <ui:Template name="NothingGroup" src="project://database/Packages/com.miniproject.aecorepeatables/Runtime/UI/SpringboardUI/NothingGroup.uxml?fileID=9197481963319205126&amp;guid=619964deda528504c8c7171bd9966726&amp;type=3#NothingGroup" />
+    <Style src="project://database/Packages/com.miniproject.aecorepeatables/Runtime/UI/SpringboardUI/InfoPanel/InfoPanel.uss?fileID=7433441132597879392&amp;guid=b0316e6294aed794e85da96eb79f4ff6&amp;type=3#InfoPanel" />
+    <ui:VisualElement name="AlarmInfoPanel" class="info-panel">
+        <ui:VisualElement name="UpperElements">
+            <ui:Instance template="InfoPanelHeader" name="InfoPanelHeader" />
+            <ui:VisualElement name="AlarmPanelElements" style="display: flex;">
+                <ui:VisualElement name="StaticHeader" class="info-panel-staticgroup">
+                    <ui:Instance template="AlarmActions" name="AlarmActions">
+                        <AttributeOverrides element-name="button" focusable="false" />
+                    </ui:Instance>
+                    <ui:Instance template="DividerLine-Horizontal" name="DividerLine-Horizontal" class="info-panel-divider" />
+                </ui:VisualElement>
+                <ui:ScrollView horizontal-scroller-visibility="Hidden" vertical-scroller-visibility="Auto" name="AlarmDetailsScroller" class="info-panel-scroller">
+                    <ui:Instance template="AlarmDetails" name="AlarmDetails" class="info-panel-spacing" />
+                    <ui:Instance template="AlarmHistory" name="AlarmHistory" class="info-panel-spacing" />
+                    <ui:Instance template="AlarmDetails2" name="AlarmDetails2" class="info-panel-spacing" />
+                    <ui:Instance template="OperatingProcedure" name="OperatingProcedure" class="info-panel-spacing" />
+                </ui:ScrollView>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="LowerElements">
+            <ui:Instance template="DividerLine-Horizontal" name="DividerLine-Horizontal" class="info-panel-camera-divider" />
+            <ui:Instance template="CameraWindow" name="CameraWindow" class="info-panel-camerawindow" />
+        </ui:VisualElement>
+        <ui:Instance template="NothingGroup" name="NothingGroup" style="display: none;" />
+    </ui:VisualElement>
+</ui:UXML>

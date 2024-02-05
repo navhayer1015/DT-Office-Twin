@@ -1,0 +1,21 @@
+.unity-foldout__content {
+    margin: 0;
+    padding: 0;
+}
+
+.video-image {
+    width: 320;
+    height: 200;
+    background-color: var(--form-selected);
+}
+
+.video-description {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0;
+    margin-bottom: 8px;
+}

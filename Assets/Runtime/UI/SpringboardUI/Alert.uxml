@@ -1,0 +1,23 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Template name="Button-Icon-Round" src="project://database/Packages/com.miniproject.aecorepeatables/Runtime/UI/RepeatableComponents/Button-Icon-Round.uxml?fileID=9197481963319205126&amp;guid=79b1702847409f54ab447ea4dc7275be&amp;type=3#Button-Icon-Round" />
+    <Style src="project://database/Packages/com.miniproject.aecorepeatables/Runtime/UI/SpringboardUI/Alert.uss?fileID=7433441132597879392&amp;guid=7aea56898142f5d4e84a389835468a91&amp;type=3#Alert" />
+    <ui:Button display-tooltip-when-elided="true" name="AlertCard" class="alarmcard">
+        <ui:GroupBox name="LeftSection" class="alarmcard-section">
+            <ui:Label display-tooltip-when-elided="true" name="Icon" class="alarmcard-icon" />
+            <ui:GroupBox name="AlarmInfoGroup" class="alarmcard-infogroup">
+                <ui:Label text="Alarm Title" display-tooltip-when-elided="true" name="AlarmTitle" class="text-body2 alarmcard-text" />
+                <ui:Label text="Location " display-tooltip-when-elided="true" name="AlarmLocation" class="text-body2 alarmcard-text" />
+                <ui:Label text="12:43pm" display-tooltip-when-elided="true" name="AlarmTimeStamp" class="text-body2 alarmcard-text" />
+                <ui:Label text="New" display-tooltip-when-elided="true" name="AlarmDeviceState" class="alarmcard-text alarmcard-text-status text-subtitle2" />
+            </ui:GroupBox>
+        </ui:GroupBox>
+        <ui:GroupBox name="RightSection" class="alarmcard-section">
+            <ui:Instance template="Button-Icon-Round" name="ClearButton">
+                <AttributeOverrides element-name="button" tooltip="Dismiss" focusable="false" />
+            </ui:Instance>
+            <ui:Instance template="Button-Icon-Round" name="AcknowledgeButton">
+                <AttributeOverrides element-name="button" tooltip="Acknowledge" focusable="false" />
+            </ui:Instance>
+        </ui:GroupBox>
+    </ui:Button>
+</ui:UXML>

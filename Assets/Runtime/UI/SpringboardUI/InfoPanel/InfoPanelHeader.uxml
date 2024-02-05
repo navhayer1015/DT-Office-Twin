@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Template name="Button-Icon-Round" src="project://database/Packages/com.miniproject.aecorepeatables/Runtime/UI/RepeatableComponents/Button-Icon-Round.uxml?fileID=9197481963319205126&amp;guid=79b1702847409f54ab447ea4dc7275be&amp;type=3#Button-Icon-Round" />
+    <ui:GroupBox name="Header" class="info-panel-header">
+        <ui:Label text="Alarm Information" display-tooltip-when-elided="true" name="InfoPanel-Title" class="info-panel-title text-headline6" />
+        <ui:Instance template="Button-Icon-Round" name="CloseButton">
+            <AttributeOverrides element-name="button" focusable="false" />
+        </ui:Instance>
+    </ui:GroupBox>
+</ui:UXML>

@@ -1,0 +1,87 @@
+.alarmcard {
+    border-radius: 4px;
+    width: 320px;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    margin-bottom: 6px;
+    padding: 9px 13px;
+    border-width: 1px;
+    background-color: var(--card-base);
+    border-color: var(--card-base);
+}
+
+.alarmcard--hover {
+    background-color: var(--card-hover);
+    border-color: var(--card-hover);
+}
+
+.alarmcard--selected {
+    background-color: var(--card-selected);
+    border-color: var(--card-selected-outline);
+}
+
+.alarmcard-icon {
+    background-image: var(--icon-alert--deselected);
+    margin: 0;
+    padding: 0;
+    width: 24px;
+    height: 24px;
+}
+
+.alarmcard-icon--selected {
+    background-image: var(--icon-alert--selected);
+}
+
+.alarmcard-infogroup {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 13px;
+    max-width: 200px;
+    flex-wrap: wrap;
+}
+
+.alarmcard-text {
+    margin: 0;
+    padding: 0 1px;
+    -unity-text-align: upper-left;
+    flex-wrap: wrap;
+    flex-direction: row;
+    white-space: normal;
+    width: auto;
+    max-width: 230px;
+}
+
+.alarmcard-text-status {
+    -unity-font-style: bold;
+    flex-wrap: wrap;
+}
+
+.alarmcard-section {
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+#RightSection {
+    margin-right: 1px;
+    margin-top: 2px;
+}
+
+#RightSection #button {
+    width: 18px;
+    height: 18px;
+}
+
+#ClearButton #icon {
+    background-image: var(--icon-trash);
+}
+
+#AcknowledgeButton #icon {
+    background-image: var(--icon-check);
+}

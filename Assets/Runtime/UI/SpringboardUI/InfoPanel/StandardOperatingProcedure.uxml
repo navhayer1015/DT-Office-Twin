@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Foldout text="Standard Operating Procedure" name="SOP">
+        <ui:Label text="Lorem ipsum ...&#10;ladida&#10;more text&#10;more and more text" display-tooltip-when-elided="true" name="Description" class="text-body-list" style="flex-wrap: wrap;" />
+    </ui:Foldout>
+</ui:UXML>

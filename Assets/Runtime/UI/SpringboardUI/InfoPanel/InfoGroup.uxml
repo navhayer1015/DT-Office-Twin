@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Packages/com.miniproject.aecorepeatables/Runtime/UI/SpringboardUI/InfoPanel/InfoGroup.uss?fileID=7433441132597879392&amp;guid=862c14bf173cbf74697199317ec56cad&amp;type=3#InfoGroup" />
+    <ui:GroupBox name="InfoGroup" class="text-infogroup infogroup" style="justify-content: flex-start;">
+        <ui:Label text="Label" display-tooltip-when-elided="true" name="title" class="text-body-list infogroup-title" />
+        <ui:Label text="Description" display-tooltip-when-elided="true" name="description" class="text-body-list infogroup-description" />
+    </ui:GroupBox>
+</ui:UXML>

@@ -1,0 +1,92 @@
+.horizontalgroup {
+    align-items: center;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+.alarmactions-header {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.alarmactions-header-icon-container {
+    margin: 0;
+    margin-right: 8px;
+    padding: 0;
+    width: 24px;
+    height: 24px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    border-color: rgb(255, 255, 255);
+    border-width: 1px;
+    background-color: rgb(255, 115, 0);
+}
+
+.alarmactions-header-icon-container.camera {
+    background-color: rgb(24, 120, 241);
+}
+
+.alarmactions-header-icon-container.cardreader {
+    background-color: rgb(119, 24, 241);
+}
+
+.alarmactions-header-icon {
+    width: 16px;
+    height: 16px;
+    background-image: url('project://database/Packages/com.miniproject.aecorepeatables/Runtime/UI/Icons/Card.png?fileID=2800000&guid=3b24eae386a34ec4fad95d614e68d05f&type=3#Card');
+}
+
+.alarmactions-header-icon-container.camera .alarmactions-header-icon {
+    background-image: url('project://database/Packages/com.miniproject.aecorepeatables/Runtime/UI/Icons/Camera.png?fileID=2800000&guid=0dc2ac45eda36934ab45e7e52823d64f&type=3#Camera');
+}
+
+.alarmactions-header-icon-container.cardreader .alarmactions-header-icon {
+    background-image: url('project://database/Packages/com.miniproject.aecorepeatables/Runtime/UI/Icons/Card.png?fileID=2800000&guid=3b24eae386a34ec4fad95d614e68d05f&type=3#Card');
+    background-color: rgb(119, 24, 241);
+}
+
+#AlarmActionButtons #button {
+    width: 22px;
+    height: 22px;
+    margin-left: 2px;
+    background-color: var(--color-transparent);
+}
+
+#AlarmActionButtons #ClearButton #icon {
+    background-image: var(--icon-trash);
+}
+
+#AlarmActionButtons #AcknowledgeButton #icon {
+    background-image: var(--icon-check);
+}
+
+#LocateButton .button-icon {
+    background-image: var(--icon-locate);
+}
+
+#CreateTicketButton .button-icon {
+    background-image: var(--icon-plus);
+}
+
+.alarmaction-button {
+    flex-basis: 50%;
+}
+
+#LocateButton {
+    margin-right: 4px;
+}
+
+#CreateTicketButton {
+    margin-left: 4px;
+}
+
+.alarmactions {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

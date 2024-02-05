@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/RepeatableComponents/Text-Input-Field.uss?fileID=7433441132597879392&amp;guid=26f83ca697887a248ae2d138e1e36025&amp;type=3#Text-Input-Field" />
+    <ui:TextField picking-mode="Ignore" value="filler text" text="Login Name" name="text-field" focusable="true" class="text-input-field" style="display: flex; visibility: visible;" />
+</ui:UXML>

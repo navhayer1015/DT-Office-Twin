@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Template name="InfoGroup" src="project://database/Packages/com.miniproject.aecorepeatables/Runtime/UI/SpringboardUI/InfoPanel/InfoGroup.uxml?fileID=9197481963319205126&amp;guid=e954f3a9af918094babb7b4b0323f0ae&amp;type=3#InfoGroup" />
+    <ui:Foldout text="Device Information">
+        <ui:Instance template="InfoGroup" name="DateDetails">
+            <AttributeOverrides element-name="title" text="Date:" />
+            <AttributeOverrides element-name="description" text="2023-03-15-08:23:22.054" />
+        </ui:Instance>
+        <ui:Instance template="InfoGroup" name="HardwareDetails">
+            <AttributeOverrides element-name="title" text="ID:" />
+            <AttributeOverrides element-name="description" text="PW-5000 : : 0148185700" />
+        </ui:Instance>
+        <ui:Instance template="InfoGroup" name="StatusDetails" class="text-subtitle2">
+            <AttributeOverrides element-name="title" text="Status:" />
+            <AttributeOverrides element-name="description" text="Unacknowledged" />
+        </ui:Instance>
+    </ui:Foldout>
+</ui:UXML>

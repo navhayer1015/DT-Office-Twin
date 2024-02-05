@@ -1,0 +1,70 @@
+.alarmfeed {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 100%;
+    background-color: var(--surface-foreground);
+    width: 360px;
+}
+
+.alarmfeed-title {
+    white-space: normal;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.alarmfeed-togglegroup {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.alarmfeed-feed {
+    position: relative;
+    top: auto;
+    left: auto;
+    flex-wrap: nowrap;
+    flex-basis: initial;
+    margin-left: 20px;
+    margin-right: 6px;
+}
+
+.alarmfeed-header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#CloseButton #icon {
+    background-image: var(--icon-close);
+    width: 24px;
+    height: 24px;
+}
+
+#CloseButton #button {
+    background-color: var(--color-transparent);
+}
+
+#NothingToReport{
+    height: 100%;
+}
+
+.nothing-group__image{
+    background-image: var(--icon-noalerts--alarm-panel);
+}

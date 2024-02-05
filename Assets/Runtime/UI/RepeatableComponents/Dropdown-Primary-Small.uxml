@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Packages/com.miniproject.aecorepeatables/Runtime/UI/RepeatableComponents/Styling/Dropdown.uss?fileID=7433441132597879392&amp;guid=845b842b8c672c54eb67bf97835f73d7&amp;type=3#Dropdown" />
+    <ui:DropdownField index="-1" name="Dropdown" choices="test" class="dropdown-small dropdown" />
+</ui:UXML>

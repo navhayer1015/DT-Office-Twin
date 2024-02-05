@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="HeaderBar" src="project://database/Packages/com.miniproject.aecorepeatables/Runtime/UI/SpringboardUI/HeaderBar.uxml?fileID=9197481963319205126&amp;guid=ccd3f0eacb8b5b64c897733375149ce9&amp;type=3#HeaderBar" />
+    <ui:Template name="DividerLine-Horizontal" src="project://database/Packages/com.miniproject.aecorepeatables/Runtime/UI/RepeatableComponents/DividerLine-Horizontal.uxml?fileID=9197481963319205126&amp;guid=2af13e299a1a9834a85b7b3f3a961d85&amp;type=3#DividerLine-Horizontal" />
+    <ui:Template name="ToolBar" src="project://database/Packages/com.miniproject.aecorepeatables/Runtime/UI/SpringboardUI/ToolBar.uxml?fileID=9197481963319205126&amp;guid=4e3cada82bf359f4990e18b5335f5708&amp;type=3#ToolBar" />
+    <ui:Template name="AlertsPanel" src="project://database/Packages/com.miniproject.aecorepeatables/Runtime/UI/SpringboardUI/AlarmFeed.uxml?fileID=9197481963319205126&amp;guid=8b491b6fb873a8b48837e4ed63ae6bc3&amp;type=3#AlarmFeed" />
+    <ui:Template name="InfoPanel" src="project://database/Packages/com.miniproject.aecorepeatables/Runtime/UI/SpringboardUI/InfoPanel/InfoPanel.uxml?fileID=9197481963319205126&amp;guid=d8a225b0d3417534fba6df73067d2db6&amp;type=3#InfoPanel" />
+    <Style src="project://database/Packages/com.miniproject.aecorepeatables/Runtime/UI/SpringboardUI/MainScreen.uss?fileID=7433441132597879392&amp;guid=78f0a1a30f63bdd4e8235f13629d7736&amp;type=3#MainScreen" />
+    <Unity.AppUI.UI.Panel style="position: absolute; width: 100%; height: 100%;">
+        <ui:Instance template="HeaderBar" name="HeaderBar" class="mainscreen-header" />
+        <ui:Instance template="DividerLine-Horizontal" name="DividerLine-Horizontal" />
+        <ui:Instance template="ToolBar" name="ToolBar" class="mainscreen-toolbar" />
+        <ui:GroupBox name="InteractiveArea">
+            <ui:Instance template="AlertsPanel" name="AlarmFeed" class="mainscreen-alarmfeed" />
+            <Unity.Solutions.Repeatables.CameraViewport name="VisiblePanel" style="flex-grow: 1; overflow: hidden;" />
+            <ui:Instance template="InfoPanel" name="InfoPanel" class="mainscreen-info-panel" />
+        </ui:GroupBox>
+    </Unity.AppUI.UI.Panel>
+</ui:UXML>

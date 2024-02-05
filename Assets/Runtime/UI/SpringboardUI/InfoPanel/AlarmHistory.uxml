@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Foldout text="Rolling 7 Day History" name="History">
+        <ui:GroupBox name="TempGraph" style="margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; max-width: 323px; max-height: none; min-height: 125px; background-image: url(&apos;project://database/Packages/com.miniproject.aecorepeatables/Runtime/UI/Icons/temp/Histogram_Temp.png?fileID=2800000&amp;guid=d405eea89e21aaf478be06fdd72590c7&amp;type=3#Histogram_Temp&apos;);" />
+    </ui:Foldout>
+</ui:UXML>

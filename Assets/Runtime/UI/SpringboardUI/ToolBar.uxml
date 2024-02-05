@@ -1,0 +1,29 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Template name="Dropdown-Primary-Small" src="project://database/Packages/com.miniproject.aecorepeatables/Runtime/UI/RepeatableComponents/Dropdown-Primary-Small.uxml?fileID=9197481963319205126&amp;guid=77e61c6a51175e94b8f423f3f7d6e736&amp;type=3#Dropdown-Primary-Small" />
+    <ui:Template name="CustomDropdown-Icon" src="project://database/Packages/com.miniproject.aecorepeatables/Runtime/UI/RepeatableComponents/CustomDropdown-Icon.uxml?fileID=9197481963319205126&amp;guid=c9252909d1f581f42ade46fcd3f3dea2&amp;type=3#CustomDropdown-Icon" />
+    <ui:Template name="CustomCheckboxDropdown-Icon" src="project://database/Packages/com.miniproject.aecorepeatables/Runtime/UI/RepeatableComponents/CustomCheckboxDropdown-Icon.uxml" />
+    <ui:Template name="Button-Primary-Small__Icon" src="project://database/Packages/com.miniproject.aecorepeatables/Runtime/UI/RepeatableComponents/Button-Primary-Small__Icon.uxml?fileID=9197481963319205126&amp;guid=f32d8c48d430c6249ab6f5c6c3b3da8c&amp;type=3#Button-Primary-Small__Icon" />
+    <Style src="project://database/Packages/com.miniproject.aecorepeatables/Runtime/UI/SpringboardUI/ToolBar.uss?fileID=7433441132597879392&amp;guid=511da81e66787954b9b415828f632d1f&amp;type=3#ToolBar" />
+    <ui:VisualElement name="ToolBar" class="toolbar">
+        <ui:GroupBox name="Left" class="toolbar-section">
+            <ui:Instance template="Dropdown-Primary-Small" name="Location-Dropdown" />
+            <ui:VisualElement display-tooltip-when-elided="true" name="Breadcrumb" class="text-body2 toolbar-breadcrumb" />
+        </ui:GroupBox>
+        <ui:VisualElement name="Middle" class="toolbar-section toolbar-middle">
+            <ui:Instance template="CustomDropdown-Icon" name="Floor-Dropdown" />
+            <ui:Instance template="CustomDropdown-Icon" name="POI-Dropdown" />
+            <ui:Instance template="CustomCheckboxDropdown-Icon" name="Show-Hide-Dropdown" />
+        </ui:VisualElement>
+        <ui:GroupBox name="Right" class="toolbar-section toolbar-right">
+            <ui:Instance template="Button-Primary-Small__Icon" name="AlarmButton">
+                <AttributeOverrides element-name="button" focusable="false" />
+                <ui:VisualElement name="NotificationIcon" class="notification-icon">
+                    <ui:Label text="0" display-tooltip-when-elided="true" name="NotificationNumber" />
+                </ui:VisualElement>
+            </ui:Instance>
+            <ui:Instance template="Button-Primary-Small__Icon" name="SettingsButton">
+                <AttributeOverrides element-name="button" focusable="false" />
+            </ui:Instance>
+        </ui:GroupBox>
+    </ui:VisualElement>
+</ui:UXML>

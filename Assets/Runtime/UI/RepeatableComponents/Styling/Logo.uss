@@ -1,0 +1,42 @@
+.logo-horizontal-icon {
+    background-image: var(--icon-logo);
+    width: 34px;
+    height: 32px;
+    margin-left: 0;
+    margin-right: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.logo-horizontal-text-bold {
+    margin: 0;
+    padding: 0;
+    -unity-font-definition: var(--font-inter-700);
+    font-size: 18.68px;
+    color: var(--text-primary);
+    margin-right: 4px;
+}
+
+.logo-horizontal-text-normal {
+    margin: 0;
+    padding: 0;
+    -unity-font-definition: var(--font-inter-400);
+    font-size: 18.68px;
+    color: var(--text-primary);
+}
+
+.logo-horizontal {
+    flex-direction: row;
+    align-items: center;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 213px;
+    height: 32px;
+}

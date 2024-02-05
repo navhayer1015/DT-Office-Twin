@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/NothingGroup.uss?fileID=7433441132597879392&amp;guid=ad9d8ab88c982cd4f9055c6198784c82&amp;type=3#NothingGroup" />
+    <ui:VisualElement name="NothingToReport" class="nothing-group">
+        <ui:GroupBox name="Image" class="nothing-group__image" />
+        <ui:Label text="Nothing to report" display-tooltip-when-elided="true" name="Header" class="text-headline6 nothing-group__header" />
+        <ui:Label text="Awesome work, you have no new alerts at this time." display-tooltip-when-elided="true" name="Body" class="text-body2 nothing-group__body" />
+    </ui:VisualElement>
+</ui:UXML>

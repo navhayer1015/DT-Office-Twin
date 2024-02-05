@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Template name="CustomDropdown-Icon" src="project://database/Packages/com.miniproject.aecorepeatables/Runtime/UI/RepeatableComponents/CustomDropdown-Icon.uxml?fileID=9197481963319205126&amp;guid=c9252909d1f581f42ade46fcd3f3dea2&amp;type=3#CustomDropdown-Icon" />
+    <Style src="project://database/Packages/com.miniproject.aecorepeatables/Runtime/UI/SpringboardUI/HeaderBar.uss?fileID=7433441132597879392&amp;guid=557b9259b3650a140a812c882aef510d&amp;type=3#HeaderBar" />
+    <ui:VisualElement name="HeaderBar" class="headerbar">
+        <ui:VisualElement name="Logo" class="headerbar-logo" />
+        <ui:GroupBox name="Buttons" class="headerbar-buttons-group">
+            <ui:Instance template="CustomDropdown-Icon" name="KebabDropdown" />
+            <ui:Instance template="CustomDropdown-Icon" name="ProfileDropdown" />
+        </ui:GroupBox>
+    </ui:VisualElement>
+</ui:UXML>

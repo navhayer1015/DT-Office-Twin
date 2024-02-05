@@ -1,0 +1,72 @@
+:root {
+
+    /* Surface */
+    --surface-background: #000000;
+    --surface-foreground: #161614;
+
+    /* Forms */
+    --form-base: #1C1C1E;
+    --form-base-outline: #4A4A4A;
+    --form-selected: rgba(57, 96, 246, 0.3);
+    --form-selected-outline: #3960F6;
+    --form-hover: rgba(47, 55, 87, 0.3);
+    --form-hover-outline: #2F3757;
+    --form-press: rgba(52, 76, 166, 0.3);
+    --form-press-outline: #344CA6;
+    --form-disabled: #2D2D2F;
+
+    /* Icons */
+    --icon-primary: rgba(255, 255, 255, 0.8);
+    --icon-primary-disabled: #424242;
+
+    /* Text */
+    --text-primary: #E2E2E2; 
+    --text-hyperlink: #3960F6;
+    --text-info-primary: #E2E2E2;
+    --text-info-secondary: #B5B5B5;
+    --btn-text: #FFFFFF;
+    --btn-text-disabled: #424242;
+
+    /* Button */
+    --btn-primary-base: #1A1A1C;
+    --btn-primary-selected: #3960F6;
+    --btn-primary-hover: #2F3757;
+    --btn-primary-pressed: #344CA6;
+    --btn-primary-focus: #344CA6;
+    --btn-primary-disabled: #282828;
+    --btn-primary-outline-focus: #3960F6;
+
+    --btn-secondary-base: #000000;
+    --btn-secondary-selected: #3960F6;
+    --btn-secondary-hover: #2F3757;
+    --btn-secondary-pressed: #344CA6;
+    --btn-secondary-focus: #344CA6;
+    --btn-secondary-disabled: #282828;
+    --btn-secondary-outline-focus: #3960F6;
+
+    /* Divider */
+    --divider: #444444;
+
+    /* Scroll Bar */
+    --scrollbar-foreground: #373740;
+    --scrollbar-background: #111112;
+    
+    /* Alarm Card */
+    --card-base: #1A1A1C;
+    --card-selected: #28282E;
+    --card-selected-outline: #33333B;
+    --card-hover: #222226;
+    --card-pressed:  rgba(52, 76, 166, 0.3);
+    --card-pressed-outline: #344CA6;
+    --card-disabled: #282828;
+    
+    /* Expand Panel */
+    --expand-panel-base: #1A1A1C;
+    
+    /* Notifications */
+    --notification-background: #EB3F3D;
+    --notification-text: #FFFFFF;
+    
+    /* Tooltips */
+    --tooltip-background: #373740;
+}

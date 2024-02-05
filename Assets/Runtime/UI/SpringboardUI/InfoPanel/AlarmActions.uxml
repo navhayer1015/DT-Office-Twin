@@ -1,0 +1,31 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Template name="Button-Icon-Round"
+                 src="project://database/Packages/com.miniproject.aecorepeatables/Runtime/UI/RepeatableComponents/Button-Icon-Round.uxml?fileID=9197481963319205126&amp;guid=79b1702847409f54ab447ea4dc7275be&amp;type=3#Button-Icon-Round"/>
+    <ui:Template name="Button-Primary-Small__Text-Icon"
+                 src="project://database/Packages/com.miniproject.aecorepeatables/Runtime/UI/RepeatableComponents/Button-Primary-Small__Text-Icon.uxml?fileID=9197481963319205126&amp;guid=5cc2f02d529372f4cb30e8acd683b26a&amp;type=3#Button-Primary-Small__Text-Icon"/>
+    <Style src="project://database/Packages/com.miniproject.aecorepeatables/Runtime/UI/SpringboardUI/InfoPanel/AlarmActions.uss?fileID=7433441132597879392&amp;guid=ba544d2e0f2fbba409a99e53e098eb51&amp;type=3#AlarmActions"/>
+    <ui:VisualElement name="AlarmActions" class="alarmactions">
+        <ui:GroupBox name="TitleSection" class="info-panel-header alarmactions-header">
+            <ui:GroupBox name="AlarmTitle" class="horizontalgroup">
+                <ui:GroupBox name="AlarmIconContainer" class="alarmactions-header-icon-container">
+                    <ui:VisualElement name="AlarmIcon" class="alarmactions-header-icon"/>
+                </ui:GroupBox>
+                <ui:Label text="Zone 1-Door Forced" display-tooltip-when-elided="true" name="AlarmName"
+                          class="text-body2"/>
+            </ui:GroupBox>
+            <ui:GroupBox name="AlarmActionButtons" class="horizontalgroup">
+                <ui:Instance template="Button-Icon-Round" name="AcknowledgeButton"/>
+                <ui:Instance template="Button-Icon-Round" name="ClearButton"/>
+            </ui:GroupBox>
+        </ui:GroupBox>
+        <ui:GroupBox name="Buttons" class="info-panel-alarmbuttons horizontalgroup">
+            <ui:Instance template="Button-Primary-Small__Text-Icon" name="LocateButton" class="alarmaction-button">
+                <AttributeOverrides element-name="label" text="LOCATE ALARM"/>
+            </ui:Instance>
+            <ui:Instance template="Button-Primary-Small__Text-Icon" name="CreateTicketButton"
+                         class="alarmaction-button">
+                <AttributeOverrides element-name="label" text="CREATE TICKET"/>
+            </ui:Instance>
+        </ui:GroupBox>
+    </ui:VisualElement>
+</ui:UXML>

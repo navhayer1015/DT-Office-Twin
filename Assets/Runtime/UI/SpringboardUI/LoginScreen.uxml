@@ -1,0 +1,24 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:Template name="Button-Primary-Large" src="project://database/Packages/com.miniproject.aecorepeatables/Runtime/UI/RepeatableComponents/Button-Primary-Large.uxml?fileID=9197481963319205126&amp;guid=4b6a6acc6de3e5c4299099b4161ccd6f&amp;type=3#Button-Primary-Large" />
+    <Style src="project://database/Packages/com.miniproject.aecorepeatables/Runtime/UI/SpringboardUI/LoginScreen.uss?fileID=7433441132597879392&amp;guid=d806659533c723f47980fd7634190b37&amp;type=3#LoginScreen" />
+    <Unity.AppUI.UI.Panel style="width: 100%; height: 100%;">
+        <ui:VisualElement name="FullScreen" class="loginscreen-base">
+            <ui:GroupBox name="LoginScreen" class="loginscreen" style="align-items: center; flex-direction: column; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; translate: 0 0; transform-origin: center; width: 560px; height: 373px;">
+                <ui:VisualElement name="Logo" class="loginscreen-logo">
+                    <ui:Label text="Digital Twin for Facility Operations" display-tooltip-when-elided="true" style="margin-top: 61px; margin-left: 47px; -unity-background-image-tint-color: rgb(255, 255, 255); -unity-background-scale-mode: stretch-to-fill; background-color: rgba(0, 0, 0, 0); color: rgb(255, 255, 255);" />
+                </ui:VisualElement>
+                <ui:VisualElement style="color: rgba(255, 255, 255, 255); height: 54px; width: 400px; top: -21px;">
+                    <ui:Label text="Try the demo to interact remotely with a connected and intuitive decision-making platform where you can:" display-tooltip-when-elided="true" style="flex-wrap: nowrap; white-space: normal; font-size: 9px; -unity-font: resource(&apos;Styles/Themes/App UI - Dark - Mobile&apos;);" />
+                    <ui:Label text="- Explore the facility: Use your mouse to navigate the building’s layout and interact with all connected control access systems (door sensors, card readers, CCTV cameras). View live security alerts as they appear in real-time." display-tooltip-when-elided="true" style="flex-wrap: nowrap; white-space: normal; font-size: 9px; -unity-font: resource(&apos;Styles/Themes/App UI - Dark - Mobile&apos;); top: 6px;" />
+                    <ui:Label text="- Act on security alerts: Click on alerts from the card readers and assess them in real-time via connected CCTV feeds. Follow along with suggested actions to resolve security issues.&#10;&#10;&#10;&#10;&#10;" display-tooltip-when-elided="true" style="flex-wrap: nowrap; white-space: normal; font-size: 9px; -unity-font: resource(&apos;Styles/Themes/App UI - Dark - Mobile&apos;); top: 14px;" />
+                </ui:VisualElement>
+                <ui:Instance template="Button-Primary-Large" name="LoginButton" class="loginscreen-button" style="opacity: 0;">
+                    <AttributeOverrides element-name="button" text="LOG IN" />
+                </ui:Instance>
+                <ui:Instance template="Button-Primary-Large" name="DemoButton" class="loginscreen-button">
+                    <AttributeOverrides element-name="button" text="DEMO" />
+                </ui:Instance>
+            </ui:GroupBox>
+        </ui:VisualElement>
+    </Unity.AppUI.UI.Panel>
+</ui:UXML>

@@ -1,0 +1,81 @@
+:root {
+    --font-inter-400: url("project://database/Packages/com.miniproject.aecorepeatables/Runtime/UI/Fonts/Inter/Inter-Regular.asset");
+    --font-inter-700: url("project://database/Packages/com.miniproject.aecorepeatables/Runtime/UI/Fonts/Inter/Inter-Bold.asset");
+    --font-inter-800: url("project://database/Packages/com.miniproject.aecorepeatables/Runtime/UI/Fonts/Inter/Inter-ExtraBold.asset");
+}
+
+.text-headline1{
+    font-size: 94px;
+    color: var(--text-primary);
+    -unity-font-definition: var(--font-inter-700);
+}
+.text-headline2{
+    font-size: 59px;
+    color: var(--text-primary);
+    -unity-font-definition: var(--font-inter-800);
+}
+.text-headline3{
+    font-size: 47px;
+    color: var(--text-primary);
+    -unity-font-definition: var(--font-inter-800);
+}
+.text-headline4{
+    font-size: 33px;
+    color: var(--text-primary);
+    -unity-font-definition: var(--font-inter-800);
+}
+.text-headline5{
+    font-size: 24px;
+    color: var(--text-primary);
+    -unity-font-definition: var(--font-inter-800);
+}
+.text-headline6{
+    font-size: 20px;
+    color: var(--text-primary);
+    -unity-font-definition: var(--font-inter-800);
+}
+.text-subtitle1{
+    font-size: 16px;
+    color: var(--text-primary);
+    -unity-font-definition: var(--font-inter-700);
+}
+.text-subtitle2{
+    font-size: 14px;
+    color: var(--text-primary);
+    -unity-font-definition: var(--font-inter-700);
+}
+.text-body1{
+    font-size: 16px;
+    color: var(--text-primary);
+    -unity-font-definition: var(--font-inter-400);
+}
+.text-body2{
+    font-size: 14px;
+    color: var(--text-primary);
+    -unity-font-definition: var(--font-inter-400);
+}
+.text-body-list{
+    font-size: 14px;
+    color: var(--text-info-secondary);
+    -unity-font-definition: var(--font-inter-400);
+}
+.text-button{
+    font-size: 12px;
+    color: var(--text-primary);
+    -unity-font-definition: var(--font-inter-700);
+}
+.text-caption{
+    font-size: 12px;
+    color: var(--text-info-secondary);
+    -unity-font-definition: var(--font-inter-400);
+}
+.text-overline{
+    font-size: 10px;
+    color: var(--text-primary);
+    -unity-font-definition: var(--font-inter-700);
+}
+.text-hyperlink{
+    font-size: 14px;
+    color: var(--btn-primary-selected);
+    -unity-font-definition: var(--font-inter-400);
+}
